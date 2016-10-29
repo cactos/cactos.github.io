@@ -77,30 +77,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "CACTOS Consortium"
+  name             : 
   avatar           : "WEBSITE-LOGO-v5.png"
-  bio              :
-  location         :
+  bio              : "TODO: An awesome moto"
+  location         : "EU"
   email            :
-  uri              :
+  uri              : "http://www.cactosfp7.eu/"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/cactosfp7"
   foursquare       :
-  github           :
-  google_plus      :
+  github           : "https://github.com/cactos"
+  google_plus      : "https://plus.google.com/108896883175675521132"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/groups/5146576"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/cactosfp7"
   vine             :
   weibo            :
   xing             :
