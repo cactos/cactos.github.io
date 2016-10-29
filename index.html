@@ -1,14 +1,43 @@
 ---
-layout: archive
-author_profile: true
+layout: splash
+permalink: /
+header:
+  overlay_color: "#5e616c"
+  overlay_image: "cactus.jpg"
+  cta_label: "<i class='fa fa-download'></i> Install Now"
+  cta_url: "/docs/"
+  caption:
+excerpt: 'Was developed by a consortium of leading European research organisations, which received funding from the European Commission under the Seventh Framework Programme.<br /> <br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=cactos&repo=Cactos-Runtime&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=cactos&repo=Cactos-Runtime&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+feature_row:
+  - image_path: "cactoscale.png"
+    alt: "Discover CactoScale"
+    title: "Discover CactoScale"
+    excerpt: "CactoScale integrates multiple sources of performance and error monitoring data into a consolidated architecture with a unified interface and storage architecture."
+    url: "/docs/installation-guides/installation-of-cactoscale/"
+    btn_label: "Learn More"
+    btn_class: "btn--success"
+  - image_path: "cactoopt.png"
+    alt: "Discover CactoOpt"
+    title: "Discover CactoOpt"
+    excerpt: "The purpose of CactoOpt is to facilitate the optimisation of data centre infrastructures with respect to the efficient provisioning of computational and storage resources to virtual machines in the context of IaaS-based cloud data centres."
+    url: "/installation-guides/installation-of-cactoopt-and-integration-Tools/"
+    btn_label: "Learn More"
+    btn_class: "btn--success"
+  - image_path: "cactosim.png"
+    alt: "Discover CactoSim"
+    title: "Discover CactoSim"
+    excerpt: "CactoSim is a prediction and simulation environment for diverse application workloads. It enables you to simulate optimisation models, predict the behaviour of applications on different resources, as well as validate and improve models."
+    url: "/docs/installation-guides/installation-of-cactosim/"
+    btn_label: "Learn More"
+    btn_class: "btn--success"
+github:
+  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=cactos&repo=Cactos-Runtime&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=cactos&repo=Cactos-Runtime&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+intro:
+  - excerpt: 'Get the latest news of CACTOS &nbsp; [<i class="fa fa-twitter"></i> @cactosfp7](https://twitter.com/cactosfp7){: .btn .btn--twitter}'
 ---
 
-{% include base_path %}
+{% include feature_row id="intro" type="center" %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% include feature_row %}
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
 
-{% include paginator.html %}

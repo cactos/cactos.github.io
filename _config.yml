@@ -9,10 +9,10 @@
 locale                   : "en"
 title                    : "The CACTOS Project"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "CACTOS"
 description              : "The CACTOS Project website"
 url                      : "https://cactos.github.io"
-baseurl                  : ""
+baseurl                  : "/"
 repository               : "cactos/cactos.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -87,20 +87,20 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/cactosfp7"
+  facebook         : "cactosfp7"
   foursquare       :
-  github           : "https://github.com/cactos"
-  google_plus      : "https://plus.google.com/108896883175675521132"
+  github           : "cactos"
+  google_plus      : "108896883175675521132"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/groups/5146576"
+  linkedin         : "groups/5146576"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/cactosfp7"
+  twitter          : "cactosfp7"
   vine             :
   weibo            :
   xing             :
@@ -110,6 +110,7 @@ author:
 # Reading Files
 include:
   - .htaccess
+  - images
   - _pages
 exclude:
   - "*.sublime-project"
