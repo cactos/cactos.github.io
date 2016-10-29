@@ -17,48 +17,48 @@ main:
 
 docs:
   - title: Typical Usage Scenarios
-    url: docs/scenarios/
+    url: /docs/scenarios/
     children:
       - title: "Monitoring only"
-        url: docs/scenarios/monitoring-only/
+        url: /docs/scenarios/monitoring-only/
       - title: "Data Centre Management"
-        url: docs/scenarios/data-centre-management/
+        url: /docs/scenarios/data-centre-management/
       - title: "Simulation only"
-        url: docs/scenarios/simulation-only/
+        url: /docs/scenarios/simulation-only/
       - title: "Full loop"
-        url: docs/scenarios/fool-loop/
+        url: /docs/scenarios/fool-loop/
   - title: Installation Guides
-    url: docs/installation-guides/
+    url: /docs/installation-guides/
     children:
       - title: "Prerequisites and Requirements"
-        url: docs/installation-guides/prerequisites-and-requirements/
+        url: /docs/installation-guides/prerequisites-and-requirements/
       - title: "Installation of CactoScale"
-        url: docs/installation-guides/installation-of-cactoscale/
+        url: /docs/installation-guides/installation-of-cactoscale/
       - title: "Installation of CactoOpt and Integration Tools"
-        url: docs/installation-guides/installation-of-cactoopt-and-integration-Tools/
+        url: /docs/installation-guides/installation-of-cactoopt-and-integration-Tools/
       - title: "Installation of CactoSim"
-        url: docs/installation-guides/installation-of-cactosim/
+        url: /docs/installation-guides/installation-of-cactosim/
   - title: Developer Guides
-    url: docs/dev-guides/
+    url: /docs/dev-guides/
     children:
       - title: "Add support for other monitoring metrics"
-        url: docs/dev-guides/support-for-other-monitoring-metrics/
+        url: /docs/dev-guides/support-for-other-monitoring-metrics/
       - title: "Support a different monitoring platform"
-        url: docs/dev-guides/support-different-monitoring-platform/
+        url: /docs/dev-guides/support-different-monitoring-platform/
       - title: "Support a different simulation engine"
-        url: docs/dev-guides/support-different-simulation-engine/
+        url: /docs/dev-guides/support-different-simulation-engine/
       - title: "Implement your own behaviour analysis"
-        url: docs/dev-guides/implement-your-own-behaviour-analysis/
+        url: /docs/dev-guides/implement-your-own-behaviour-analysis/
       - title: "Support other cloud middleware"
-        url: docs/dev-guides/support-other-cloud-middleware/
+        url: /docs/dev-guides/support-other-cloud-middleware/
   - title: Tutorials
-    url: docs/tutorials/
+    url: /docs/tutorials/
     children:
      - title: "Support a new application in CACTOS"
-       url: docs/tutorials/support-a-new-application-in-cactos/
+       url: /docs/tutorials/support-a-new-application-in-cactos/
      - title: "Change your optimisation algorithm"
-       url: docs/tutorials/change-your-optimisation-algorithm/
+       url: /docs/tutorials/change-your-optimisation-algorithm/
      - title: "Set-up and run a simple simulation"
-       url: docs/tutorials/setup-and-run-a-simple-simulation/
+       url: /docs/tutorials/setup-and-run-a-simple-simulation/
      - title: "Select the right optimisation algorithm"
-       url: docs/tutorials/the-right-optimisation-algorithm/
+       url: /docs/tutorials/the-right-optimisation-algorithm/
