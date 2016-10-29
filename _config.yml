@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "CACTOS Website"
+title                    : "The CACTOS Project"
 title_separator          : "-"
 name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+description              : "The CACTOS Project website"
+url                      : "https://cactos.github.io"
+baseurl                  : ""
+repository               : "cactos/cactos.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "CACTOS Consortium"
+  avatar           : "WEBSITE-LOGO-v5.png"
+  bio              :
+  location         :
   email            :
   uri              :
   bitbucket        :
