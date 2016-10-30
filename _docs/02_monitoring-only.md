@@ -1,6 +1,6 @@
 ---
 title: "Monitoring only"
-permalink: monitoring-only
+permalink: /docs/scenarios/monitoring-only/
 ---
 
 {% include base_path %}

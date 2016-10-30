@@ -29,7 +29,7 @@ docs:
       - title: "Simulation only"
         url: /docs/scenarios/simulation-only/
       - title: "Full loop"
-        url: /docs/scenarios/fool-loop/
+        url: /docs/scenarios/full-loop/
   - title: Installation Guides
     children:
       - title: "Prerequisites and Requirements"
