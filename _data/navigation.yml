@@ -37,7 +37,7 @@ docs:
       - title: "Installation of CactoScale"
         url: /docs/installation-guides/installation-of-cactoscale/
       - title: "Installation of CactoOpt and Integration Tools"
-        url: /docs/installation-guides/installation-of-cactoopt-and-integration-Tools/
+        url: /docs/installation-guides/installation-of-cactoopt-and-integration-tools/
       - title: "Installation of CactoSim"
         url: /docs/installation-guides/installation-of-cactosim/
   - title: Developer Guides
