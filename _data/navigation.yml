@@ -17,7 +17,6 @@ main:
 
 docs:
   - title: Typical Usage Scenarios
-    url: /docs/scenarios/
     children:
       - title: "Monitoring only"
         url: /docs/scenarios/monitoring-only/
@@ -28,7 +27,6 @@ docs:
       - title: "Full loop"
         url: /docs/scenarios/fool-loop/
   - title: Installation Guides
-    url: /docs/installation-guides/
     children:
       - title: "Prerequisites and Requirements"
         url: /docs/installation-guides/prerequisites-and-requirements/
@@ -39,7 +37,6 @@ docs:
       - title: "Installation of CactoSim"
         url: /docs/installation-guides/installation-of-cactosim/
   - title: Developer Guides
-    url: /docs/dev-guides/
     children:
       - title: "Add support for other monitoring metrics"
         url: /docs/dev-guides/support-for-other-monitoring-metrics/
@@ -52,7 +49,6 @@ docs:
       - title: "Support other cloud middleware"
         url: /docs/dev-guides/support-other-cloud-middleware/
   - title: Tutorials
-    url: /docs/tutorials/
     children:
      - title: "Support a new application in CACTOS"
        url: /docs/tutorials/support-a-new-application-in-cactos/
