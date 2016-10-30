@@ -3,8 +3,8 @@ main:
   - title: "About CACTOS"
     url: /about/
 
-  - title: "Docs"
-    url: /docs/
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide
   
   - title: "News"
     url: /news/
@@ -16,6 +16,10 @@ main:
     url: https://github.com/cactos
 
 docs:
+  - title: "Getting Started"
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide
   - title: Typical Usage Scenarios
     children:
       - title: "Monitoring only"
