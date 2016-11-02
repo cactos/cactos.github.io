@@ -12,6 +12,7 @@ Selection of proper optimisation and placement policies is a crucial task that c
 **Causa** optimisation and placement services contain the most advanced algorithms.
 
 **Main optimisation and placement strategies:**
+
 * *LOAD_BALANCING* - tries to spread the virtual machines among all servers proportionally to their sizes,
 * *CONSOLIDATION* - tries to minimize the number of servers used to host the virtual machies,
 * *ENERGY_EFFICIENCY* - tries to minimize the total power consumption of a data center,
