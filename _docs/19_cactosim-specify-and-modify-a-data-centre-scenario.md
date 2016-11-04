@@ -16,3 +16,7 @@ Each subsection contains detailed step-by-step instructions supported by screens
 The CACTOS models can be imported (loaded) from the CDO Runtime Model Storage by:
 
 ![alt text][Doc19_1]
+
+<figure>
+  <img src="{{ base_path }}/assets/images/Doc19_1.png" alt="Load DC Model">
+</figure>
