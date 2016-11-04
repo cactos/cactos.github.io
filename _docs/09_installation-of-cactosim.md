@@ -13,11 +13,12 @@ CactoSim is an Eclipse feature which is integrated with the Palladio and SimuLiz
 
 The installation steps should be performed in this order:
 
-- Download Eclipse Mars R1 Modeling Tools Edition via http://www.eclipse.org/downloads/
-- Install MMT QVTo via http://download.eclipse.org/mmt/qvto/updates/releases/3.5.0/
-(Note: This step will be removed in the future, but our current build infrastructure necessitates that this is done manually)
-- Install CactoSim via one of the update sites: https://sdqweb.ipd.kit.edu/eclipse/cactos/cactosim/nightly/ or https://sdqweb.ipd.kit.edu/eclipse/cactos/cactosim/releases/latest/
-- Download https://svn.fzi.de/svn/cactos/code/integration/trunk/eu.cactosfp7.configuration/ and insert into the configuration subfolder of the Eclipse directory.
+- Download Eclipse Mars Modelling Tools latest release (http://www.eclipse.org/downloads/packages/eclipse-modeling-tools/marsr). Unpack it in the desired location on the disk and launch.
+- Once Eclipse is fully loaded and launched, go to the “Help->Install New Software” menu option. Here the user can install remaining components by the below provided links. Paste the link in the “Work with” field and hit “Enter”. This will resolve all required packages and start the installation wizard.
+- Install the Palladio simulation framework by using nightly update site (http://sdqweb.ipd.kit.edu/eclipse/palladio/nightly)
+- Once Eclipse is restarted, in the same way install the SimuLizar add-on also using the nightly build site (http://sdqweb.ipd.kit.edu/eclipse/simulizar/nightly/)
+- Finally, following the same steps, install CactoSim from the release build site (https://sdqweb.ipd.kit.edu/eclipse/cactos/cactosim/release/2.1/)
+
 - Modify your eclipse.ini by appending the following lines at the very end:
 
 ```sh
@@ -32,13 +33,7 @@ The installation steps should be performed in this order:
 > 2. Select Show package contents
 > 3. Edit Contents>eclipse>eclipse.ini
 
-### Executing test example:
 
-- Configure cactoopt_optimisationalgorithm.cfg in the config folder to your liking, i.e. by setting the algorithm to LinKernighan or Random. This can be done while the platform is running, no need to restart when you change the optimisation settings.
-- Boot up Eclipse and import our Y2 demo project: https://svn.fzi.de/svn/cactos/code/sim/trunk/eu.cactosfp7.cactosim.year2demo.bba/
-- Run the Eclipse launch configuration for the Y2 Demo: "Year 2 Demonstration.launch".
-- Wait for the simulation to finish
-- Look at the results in the EDP2 -> Experiments view perspective.
 
 
 
