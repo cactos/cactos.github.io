@@ -30,7 +30,7 @@ The __File data source__ can be chosen to save results in the original binary fo
 ![alt text][Doc20_3]
 *Figure 3: Simulation results storage selection*
 
-Finally, after selecting the storage source, the wizard will return back to the “Simulation” tab. If all of the parameters were set, then pressing “Apply->Run” will execute a simulation experiment run.
+Finally, after selecting the storage source, the wizard will return back to the __Simulation__ tab. If all of the parameters were set, then pressing __Apply->Run__ will execute a simulation experiment run.
 
 
 
