@@ -188,8 +188,6 @@ defaults:
       type: docs
     values:
       layout: single
-      modified: false
-      date: true
       read_time: false
       author_profile: false
       share: false
