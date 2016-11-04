@@ -58,9 +58,11 @@ docs:
      #  url: /docs/tutorials/support-a-new-application-in-cactos/
      - title: "Change your optimisation algorithm"
        url: /docs/tutorials/change-your-optimisation-algorithm/
-     - title: "Set-up and run a simple simulation"
-       url: /docs/tutorials/setup-and-run-a-simple-simulation/
+     #- title: "Set-up and run a simple simulation"
+     #  url: /docs/tutorials/setup-and-run-a-simple-simulation/
      - title: "Select the right optimisation algorithm"
        url: /docs/tutorials/the-right-optimisation-algorithm/
      - title: "CactoSim: Specify and modify a data centre scenario"
        url: /docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/
+     - title: "CactoSim: Run a simulation"
+       url: /docs/tutorials/cactosim-run-a-simulation/
