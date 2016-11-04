@@ -171,12 +171,13 @@ Simulation scenarios can also be loaded from the Runtime Model Storage directly 
 -Specify the name of the project that is to be created in the local storage
 
 ![alt text][Doc19_20]
+
 *Figure 20: Store a Scenario Specification in the Prediction Model Storage – Project Name*
 
 - After the models have been imported, they can be viewed by switching to the ECP perspective in Eclipse. The perspective selector is shown in *Figure 21*.
 
 ![alt text][Doc19_21]
-*Figure 21: Store a Scenario Specification in the Prediction Model Storage – ECP Perspective
+*Figure 21: Store a Scenario Specification in the Prediction Model Storage – ECP Perspective*
 
 - The full list of persisted models is provided under the __Model Repositories__ tab, shown in *Figure 22*. To use the saved models please refer to the instructions in __Load a scenario specification from the Prediction Model Storage__.
 
