@@ -1,7 +1,6 @@
 ---
 title: "Quick-Start Guide"
 permalink: /docs/quick-start-guide
-modified:
 ---
 
 {% include base_path %}

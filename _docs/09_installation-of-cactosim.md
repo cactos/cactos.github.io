@@ -1,7 +1,6 @@
 ---
 title: "Installation of CactoSim"
 permalink: /docs/installation-guides/installation-of-cactosim/
-modified: 
 ---
 
 {% include base_path %}

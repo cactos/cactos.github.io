@@ -181,7 +181,6 @@ defaults:
       read_time: true
       comments: true
       share: true
-      date: true
       related: true
   # _docs
   - scope:
@@ -189,11 +188,10 @@ defaults:
       type: docs
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: false
       share: false
       comments: false
-      date: true
       sidebar:
         nav: "docs"
 
