@@ -21,9 +21,9 @@ As the basic monitoring framework that is used in **CACTOS** is [Chukwa](https:/
 **2.** Navigate to `chukwa/src/main/java/eu/cactosfp7/datacollection/chukwa/demux/mapper/` and create a folder with the same structure as the rest of the folders there, e.g `newsource/`. With the structure:
 
 ```bash
-minimal-mistakes
-├── NewSource                  # the main mapper class
-├── NewSourceConstants         # the class with the constants
+newsource
+├── NewSource.java                  # the main mapper class
+├── NewSourceConstants.java         # the class with the constants
 ```
 
 
