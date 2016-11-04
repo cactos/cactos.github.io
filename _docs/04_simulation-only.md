@@ -15,4 +15,4 @@ Each subsection contains detailed step-by-step instructions supported by screens
 
 ## LOAD A DATA CENTRE MODEL FROM THE RUNTIME MODEL REPOSITORY 
 
-The CACTOS models can be imported (loaded) from the CDO Runtime Model Storage by:
+The CACTOS models can be imported (loaded) from the CDO Runtime Model Storage by: 
