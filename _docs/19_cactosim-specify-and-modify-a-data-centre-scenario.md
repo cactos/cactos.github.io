@@ -73,17 +73,17 @@ Once the models have been stored in the prediction model storage (see “Store a
 Right-click the models folder under the Model Repository view and selecting the __Checkout__ option, see *Figure 6*.
 
 ![alt text][Doc19_6]
-*Figure 6: Load a Scenario Specification from the Prediction Model Storage - Checkout
+*Figure 6: Load a Scenario Specification from the Prediction Model Storage - Checkout*
 
 Create a local project folder where the models will be placed by giving it a name, see *Figure 7*.
 
 ![alt text][Doc19_7]
-*Figure 7: Load a Scenario Specification from the Prediction Model Storage – Create Project
+*Figure 7: Load a Scenario Specification from the Prediction Model Storage – Create Project*
 
 - Once the models are checked-out they will appear in the model explorer window which is by default located on the left hand side, see *Figure 8*.
 
 ![alt text][Doc19_8]
-*Figure 8: Load a Scenario Specification from the Prediction Model Storage – Model Explorer
+*Figure 8: Load a Scenario Specification from the Prediction Model Storage – Model Explorer*
 
 ---
 
@@ -96,22 +96,22 @@ In order to create a Virtual Machine model element, it firstly has to have a val
 - Double click the logical data centre model file in the workspace to open it. Next right-click the top __Logical DC Model__ element and from the menu select __New Child -> VM Image__, as shown in *Figure 9*.
 
 ![alt text][Doc19_9]
-*Figure 9: Creating of VM - VM Image Instance
+*Figure 9: Creating of VM - VM Image Instance*
 
 - Define properties of a newly created __VM Image__ entity under the __Properties__ view, as shown in *Figure 10*.
 
 ![alt text][Doc19_10]
-*Figure 10: Creating of VM –VM Image Properties
+*Figure 10: Creating of VM –VM Image Properties*
 
 - Next right click on the __Hypervisor__ entity and select __New Child -> Virtual Machine__ menu, shown in Figure 11.
 
 ![alt text][Doc19_11]
-*Figure 11: Creating of VM –New Instance
+*Figure 11: Creating of VM –New Instance*
 
 - Further following the same principle right click on the created __Virtual Machine__ instance and create __VM Image Instance__, __Virtual Memory__, __Virtual Processing Unit__ and application model. A sample configuration is shown in Figure 12.
 
 ![alt text][Doc19_12]
-*Figure 12: Creating of VM - Configuration
+*Figure 12: Creating of VM - Configuration*
 
 ---
 
@@ -122,39 +122,64 @@ Adaptation scenarios can require the adding of new compute nodes to the simulate
 - Right-click on the __Rack__ element which should contain the new node, select __New Child -> Compute Node__, as shown in *Figure 13*.
 
 ![alt text][Doc19_13]
-*Figure 13: Creation of Compute Nodes – New Entity
+*Figure 13: Creation of Compute Nodes – New Entity*
 
 - In the newly created __Compute Node__ entity properties fill in the required attributes. Right click on the newly created node and create as a child __Processing Unit Specification__, __Storage Specification__ and __Memory Specification__. Example configuration options are shown in *Figure 14.
 
 ![alt text][Doc19_14]
-*Figure 14: Creation of Compute Nodes – Configuration Properties
+*Figure 14: Creation of Compute Nodes – Configuration Properties*
 
 ---
 
 #Assignment of VMs to Compute Nodes and Moving of VMs
 
-In order to assign a VM to a compute node it needs to be linked to a hypervisor that is running on that node. Note that each physical node can only have one hypervisor. You may want to re-use an existing hypervisor and move a VM there by Cut-and-Paste or via Drag-and-Drop. In the section “Creation of Compute Nodes” it was shown how to create a new “Compute Node” entity. In this section we will create a “Hypervisor” and move a VM to it. To begin:
+In order to assign a VM to a compute node it needs to be linked to a hypervisor that is running on that node. Note that each physical node can only have one hypervisor. You may want to re-use an existing hypervisor and move a VM there by Cut-and-Paste or via Drag-and-Drop. In the section __Creation of Compute Nodes__ it was shown how to create a new __Compute Node__ entity. In this section we will create a __Hypervisor__ and move a VM to it. To begin:
+
+- Open the logical data centre model and right-click on the __Logical DC Model__ entity. Select the _New Child -> Hypervisor_ option, as shown in *Figure 15*.
 
 ![alt text][Doc19_15]
-*
+*Figure 15: Assignment of VMs to Compute Nodes and Moving of VMs – New Hypervisor*
+
+- The newly created __Hypervisor__ element under its properties at the __Node__ attribute will have a dropdown list with all available nodes where it can be linked, as shown in the Figure 16. The appropriate node instance must be selected to create a link with physical data centre representation.
 
 ![alt text][Doc19_16]
-*
+*Figure 16: Assignment of VMs to Compute Nodes and Moving of VMs –Node Selection*
+
+- Finally the __Virtual Machine__ element can be moved to new hypervisor by drag-and-drop functionality, as shown in *Figure 17*.
 
 ![alt text][Doc19_17]
-*
+*Figure 17: Assignment of VMs to Compute Nodes and Moving of VMs –VM Relocation*
+
+---
+
+#Store a scenario specification in the prediction model storage
+
+Once the datacentre models have been created or downloaded from the Runtime Model Storage, it is recommended for them to be stored using a versioning control system such as GIT [13] or Subversion [15]. The serialised models are written in the XML Metadata Interchange (XMI) format which is suitable for tracking changes and merging content. Information on how to use the suggested versioning systems can be found in freely available “Pro GIT” book [14] and “Version Control with Subversion” book [16].
+
+Simulation scenarios can also be loaded from the Runtime Model Storage directly to the local EMF Storage [17]. To perform this action: 
+
+- Click in the general Eclipse menu __File->Import->Runtime to Prediction Model Storage__
 
 ![alt text][Doc19_18]
-*
+*Figure 18: Store a Scenario Specification in the Prediction Model Storage – Wizard Selection*
+
+- Enter Runtime Model Storage login credentials together with server address attributes.
 
 ![alt text][Doc19_19]
-*
+*Figure 19: Store a Scenario Specification in the Prediction Model Storage – Credentials*
+
+-Specify the name of the project that is to be created in the local storage
 
 ![alt text][Doc19_20]
-*
+*Figure 20: Store a Scenario Specification in the Prediction Model Storage – Project Name*
+
+- After the models have been imported, they can be viewed by switching to the ECP perspective in Eclipse. The perspective selector is shown in *Figure 21*.
 
 ![alt text][Doc19_21]
-*
+*Figure 21: Store a Scenario Specification in the Prediction Model Storage – ECP Perspective
 
+- The full list of persisted models is provided under the “Model Repositories” tab, shown in Figure 22. To use the saved models please refer to the instructions in “Load a scenario specification from the Prediction Model Storage ”.
 ![alt text][Doc19_22]
+*Figure 22: Store a Scenario Specification in the Prediction Model Storage – Model Repository*
+
 
