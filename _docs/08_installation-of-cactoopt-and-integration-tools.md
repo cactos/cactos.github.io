@@ -95,3 +95,6 @@ class { 'cactos_runtime_gui':
  monitoringServer   => ''
 }
 ```
+
+**ProTip:** Make sure you have Puppet 4.8.0 installed properly.
+{: .notice--info}

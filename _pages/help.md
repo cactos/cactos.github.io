@@ -12,6 +12,6 @@ Our guides covering typical usage scenario of CACTOS, installation guides, devel
 
 ## Contact us 
 
-We are available to respond to any inquiry: <cactos-support@lists.uni-ulm.de>
+If you require any further information about CACTOS,  we will be happy to assist you as soon as possible: <cactos-support@lists.uni-ulm.de>
 
 
