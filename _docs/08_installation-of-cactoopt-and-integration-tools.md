@@ -10,6 +10,9 @@ permalink: /docs/installation-guides/installation-of-cactoopt-and-integration-to
 The installation of CactoOpt and the Integration tools, requires the [Installation of CactoScale](https://cactos.github.io/docs/installation-guides/installation-of-cactoscale/).
 Additionally the following components should be installed:
 
+**ProTip:** Make sure you have Puppet 4.8.0 installed properly.
+{: .notice--info}
+
 * Cloudiator
 * OS-Proxy
 * Runtime Optimisation
@@ -96,5 +99,5 @@ class { 'cactos_runtime_gui':
 }
 ```
 
-**ProTip:** Make sure you have Puppet 4.8.0 installed properly.
-{: .notice--info}
+Congratulations! You have installed CactoOpt and the integration tools. Now you can manage your datacentre efficiently and make it power performant.
+

@@ -20,6 +20,9 @@ The installation of CactoScale includes the following components:
 
 Below, the configuration of the required Puppet modules is described.
 
+**ProTip:** Make sure you have Puppet 4.8.0 installed properly.
+{: .notice--info}
+
 # CDO Server
 
 **1.** Clone the repository in your filesystem from [here](https://omi-gitlab.e-technik.uni-ulm.de/cactos/puppet-cdo.git) with `git clone <repo_http>`.
@@ -75,7 +78,5 @@ class { 'cactos_monitoring_gui':
 }
 ```
 
-**ProTip:** Make sure you have Puppet 4.8.0 installed properly.
-{: .notice--info}
-
+Congratulations! You have installed CactoScale. Now you can monitor your datacentre and prepare the base to plug the other [CACTOS Tools](https://cactos.github.io/docs/installation-guides/installation-of-cactoopt-and-integration-tools/).
 
