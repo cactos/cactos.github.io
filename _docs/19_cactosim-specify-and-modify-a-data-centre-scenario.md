@@ -35,6 +35,7 @@ CactoSim provides a wealth of options to modify and adapt physical or logical da
 Each subsection contains detailed step-by-step instructions supported by screenshots of the actual graphical user interface provided by CactoSim. The aim is to cover the functionality of core features of this CactoSim release as well as to introduce the general principle notion of cloud modelling using the provided tree editor interface. This section presents the building blocks in a typical usage order, from importing the models from the Runtime Model Storage to versioning of a model for later analyses.
 
 ---
+
 # Load a Data Centre Model from the Runtime Model Repository
 The CACTOS models can be imported (loaded) from the CDO Runtime Model Storage by:
 
@@ -64,6 +65,7 @@ The CACTOS models can be imported (loaded) from the CDO Runtime Model Storage by
 *Figure 5: Load a Data Centre Model from the Runtime Model Repository – Model Access*
 
 ---
+
 # Load a scenario specification from the prediction model storage
 
 Once the models have been stored in the prediction model storage (see “Store a scenario specification in the prediction model storage”) they can be loaded and explored by standard versioning tools procedures. 
@@ -84,6 +86,7 @@ Create a local project folder where the models will be placed by giving it a nam
 *Figure 8: Load a Scenario Specification from the Prediction Model Storage – Model Explorer
 
 ---
+
 # Creation of Virtual Machines
 
 The creation of VMs is required for scenarios with additional VMs deployed in the data centre. Those VMs can be based on existing VMs in the Infrastructure models or completely customized to fit the behaviour of VMs for any given scenario. 
@@ -111,6 +114,7 @@ In order to create a Virtual Machine model element, it firstly has to have a val
 *Figure 12: Creating of VM - Configuration
 
 ---
+
 #Creation of Compute Nodes
 
 Adaptation scenarios can require the adding of new compute nodes to the simulated data centre. Compute nodes belong to racks, which are contained in the physical data centre model. In order to create compute node elements, the following steps need to be performed:
@@ -126,6 +130,7 @@ Adaptation scenarios can require the adding of new compute nodes to the simulate
 *Figure 14: Creation of Compute Nodes – Configuration Properties
 
 ---
+
 #Assignment of VMs to Compute Nodes and Moving of VMs
 
 In order to assign a VM to a compute node it needs to be linked to a hypervisor that is running on that node. Note that each physical node can only have one hypervisor. You may want to re-use an existing hypervisor and move a VM there by Cut-and-Paste or via Drag-and-Drop. In the section “Creation of Compute Nodes” it was shown how to create a new “Compute Node” entity. In this section we will create a “Hypervisor” and move a VM to it. To begin:
