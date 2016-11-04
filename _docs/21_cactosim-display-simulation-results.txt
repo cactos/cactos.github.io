@@ -1,0 +1,40 @@
+---
+title: "Display Simulation Results in CactoSim"
+permalink: /docs/tutorials/cactosim-display-simulation-results/
+---
+
+{% include base_path %}
+
+[Doc21_1]: {{ base_path }}/assets/images/Doc21_1.png "Load DC"
+[Doc21_2]: {{ base_path }}/assets/images/Doc21_2.png "Load DC - Select"
+[Doc21_3]: {{ base_path }}/assets/images/Doc21_3.png "Name Project"
+[Doc21_4]: {{ base_path }}/assets/images/Doc21_4.png "Name Project"
+[Doc21_5]: {{ base_path }}/assets/images/Doc21_5.png "Name Project"
+[Doc21_6]: {{ base_path }}/assets/images/Doc21_6.png "Name Project"
+[Doc21_7]: {{ base_path }}/assets/images/Doc21_7.png "Name Project"
+[Doc21_8]: {{ base_path }}/assets/images/Doc21_8.png "Name Project"
+
+Once all of the model components have been created and configured (as shown in __Data Centre Scenario Specification and Modification__), the simulation experiment run has finished (as shown in __Run a Simulation__). This section explains how to access and read the experiment results post completion of a simulation run.
+
+---
+
+# Show resource utilisation for compute node
+
+The Simulation results can be accessed, viewed and exported upon completion of a simulation run. From the Eclipse top menu, __Window -> Open Perspective -> Other -> PCM Results__ must be selected. The data store will be represented in the experiments tree view on the left hand side (*Figure 1*) arranged according to the execution time stamp and the name given in the previous step of simulation parameters setup.
+
+![alt text][Doc21_1]
+*Figure 1: Show Resource Utilization for Compute Node*
+
+Double-clicking on the resource tuple will bring up the option menu, as shown in Figure 27. Here the visualisation type for displaying simulated results can be selected.
+
+![alt text][Doc21_2]
+*Figure 2: Visualisation selection*
+
+Right-clicking will allow the user to access a chart export menu which allows for the moving of results for analysis elsewhere, as shown in Figure 3.
+
+![alt text][Doc21_3]
+*Figure 3: Chart export menu*
+
+To view CPU utilisation results, select the entry named __State of Active Resource Tuple of CPU [x] on Node x__.
+
+> Note that if the resource tuple has word “EMPTY” in front of it, it means that no data was collected during the simulation.

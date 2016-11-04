@@ -66,3 +66,5 @@ docs:
        url: /docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/
      - title: "CactoSim: Run a simulation"
        url: /docs/tutorials/cactosim-run-a-simulation/
+     - title: "CactoSim: Display simulation results"
+       url: /docs/tutorials/cactosim-display-simulation-results/
