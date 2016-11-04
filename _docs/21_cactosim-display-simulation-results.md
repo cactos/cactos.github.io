@@ -5,6 +5,8 @@ permalink: /docs/tutorials/cactosim-display-simulation-results/
 
 {% include base_path %}
 
+{% include toc %}
+
 [Doc21_1]: {{ base_path }}/assets/images/Doc21_1.png "Load DC"
 [Doc21_2]: {{ base_path }}/assets/images/Doc21_2.png "Load DC - Select"
 [Doc21_3]: {{ base_path }}/assets/images/Doc21_3.png "Name Project"
