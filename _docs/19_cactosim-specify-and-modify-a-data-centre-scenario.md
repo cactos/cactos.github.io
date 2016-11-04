@@ -15,4 +15,4 @@ Each subsection contains detailed step-by-step instructions supported by screens
 # Load a Data Centre Model from the Runtime Model Repository
 The CACTOS models can be imported (loaded) from the CDO Runtime Model Storage by:
 
-[Doc19_1]
+![alt text][Doc19_1]
