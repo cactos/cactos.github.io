@@ -23,18 +23,21 @@ Once all of the model components have been created and configured (as shown in _
 # Show resource utilisation for Compute Node
 
 The Simulation results can be accessed, viewed and exported upon completion of a simulation run. From the Eclipse top menu, __Window -> Open Perspective -> Other -> PCM Results__ must be selected. The data store will be represented in the experiments tree view on the left hand side (*Figure 1*) arranged according to the execution time stamp and the name given in the previous step of simulation parameters setup.
+This is some text.[^1]. Other text.[^footnote].
 
 ![alt text][Doc21_1]
-*Figure 1: Show Resource Utilization for Compute Node
+*Figure 1: Show Resource Utilization for Compute Node*
 
-Double-clicking on the resource tuple will bring up the option menu, as shown in Figure 27. Here the visualisation type for displaying simulated results can be selected.
+Double-clicking on the resource tuple will bring up the option menu, as shown in Figure 2. Here the visualisation type for displaying simulated results can be selected.
 
 ![alt text][Doc21_2]
+
 *Figure 2: Visualisation selection*
 
-Right-clicking will allow the user to access a chart export menu which allows for the moving of results for analysis elsewhere, as shown in Figure 3.
+Right-clicking will allow the user to access a chart export menu which allows for the moving of results for analysis elsewhere, as shown in *Figure 3*.
 
 ![alt text][Doc21_3]
+
 *Figure 3: Chart export menu*
 
 To view CPU utilisation results, select the entry named __State of Active Resource Tuple of CPU [x] on Node x__.
@@ -47,7 +50,7 @@ To view CPU utilisation results, select the entry named __State of Active Resour
 
 The procedure for accessing the local Storage simulated utilisation results is the same as one for Processing Unit shown in __Show resource utilization for Compute Node__, only to view HDD utilisation results select entry named __State of Active Resource Tuple of HDD [x] on Node x__. This will display utilization over time results *Figure 1* only for the local disk.
 
-Also another type of resource utilisation representation is available in the form of a frequency histogram, as shown in Figure 4.
+Also another type of resource utilisation representation is available in the form of a frequency histogram, as shown in *Figure 4*.
 
 ![alt text][Doc21_4]
 *Figure 4: Show resource utilization for local storage of compute nodes*
@@ -63,6 +66,7 @@ Once the simulation run is finished, the __*.infrastructure__ file that has been
 - Open EDP2 perspective __Experiments__ view, as shown in *Figure 5*.
 
 ![alt text][Doc21_5]
+
 *Figure 5: Show energy consumption for compute node - Experiments*
 
 - Select the part of the infrastructure for which you want to perform the analysis, shown in *Figure 6*.
