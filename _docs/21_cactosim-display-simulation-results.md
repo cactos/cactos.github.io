@@ -30,11 +30,13 @@ The Simulation results can be accessed, viewed and exported upon completion of a
 Double-clicking on the resource tuple will bring up the option menu, as shown in Figure 27. Here the visualisation type for displaying simulated results can be selected.
 
 ![alt text][Doc21_2]
+
 *Figure 2: Visualisation selection*
 
 Right-clicking will allow the user to access a chart export menu which allows for the moving of results for analysis elsewhere, as shown in Figure 3.
 
 ![alt text][Doc21_3]
+
 *Figure 3: Chart export menu*
 
 To view CPU utilisation results, select the entry named __State of Active Resource Tuple of CPU [x] on Node x__.
@@ -63,6 +65,7 @@ Once the simulation run is finished, the __*.infrastructure__ file that has been
 - Open EDP2 perspective __Experiments__ view, as shown in *Figure 5*.
 
 ![alt text][Doc21_5]
+
 *Figure 5: Show energy consumption for compute node - Experiments*
 
 - Select the part of the infrastructure for which you want to perform the analysis, shown in *Figure 6*.
