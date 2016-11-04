@@ -115,7 +115,7 @@ In order to create a Virtual Machine model element, it firstly has to have a val
 
 ---
 
-#Creation of Compute Nodes
+# Creation of Compute Nodes
 
 Adaptation scenarios can require the adding of new compute nodes to the simulated data centre. Compute nodes belong to racks, which are contained in the physical data centre model. In order to create compute node elements, the following steps need to be performed:
 
@@ -131,7 +131,7 @@ Adaptation scenarios can require the adding of new compute nodes to the simulate
 
 ---
 
-#Assignment of VMs to Compute Nodes and Moving of VMs
+# Assignment of VMs to Compute Nodes and Moving of VMs
 
 In order to assign a VM to a compute node it needs to be linked to a hypervisor that is running on that node. Note that each physical node can only have one hypervisor. You may want to re-use an existing hypervisor and move a VM there by Cut-and-Paste or via Drag-and-Drop. In the section __Creation of Compute Nodes__ it was shown how to create a new __Compute Node__ entity. In this section we will create a __Hypervisor__ and move a VM to it. To begin:
 
@@ -152,7 +152,7 @@ In order to assign a VM to a compute node it needs to be linked to a hypervisor 
 
 ---
 
-#Store a scenario specification in the prediction model storage
+# Store a scenario specification in the prediction model storage
 
 Once the datacentre models have been created or downloaded from the Runtime Model Storage, it is recommended for them to be stored using a versioning control system such as GIT [13] or Subversion [15]. The serialised models are written in the XML Metadata Interchange (XMI) format which is suitable for tracking changes and merging content. Information on how to use the suggested versioning systems can be found in freely available “Pro GIT” book [14] and “Version Control with Subversion” book [16].
 
@@ -178,7 +178,8 @@ Simulation scenarios can also be loaded from the Runtime Model Storage directly 
 ![alt text][Doc19_21]
 *Figure 21: Store a Scenario Specification in the Prediction Model Storage – ECP Perspective
 
-- The full list of persisted models is provided under the “Model Repositories” tab, shown in Figure 22. To use the saved models please refer to the instructions in “Load a scenario specification from the Prediction Model Storage ”.
+- The full list of persisted models is provided under the __Model Repositories__ tab, shown in *Figure 22*. To use the saved models please refer to the instructions in __Load a scenario specification from the Prediction Model Storage__.
+
 ![alt text][Doc19_22]
 *Figure 22: Store a Scenario Specification in the Prediction Model Storage – Model Repository*
 
