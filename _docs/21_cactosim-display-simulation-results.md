@@ -23,9 +23,6 @@ Once all of the model components have been created and configured (as shown in _
 # Show resource utilisation for Compute Node
 
 The Simulation results can be accessed, viewed and exported upon completion of a simulation run. From the Eclipse top menu, __Window -> Open Perspective -> Other -> PCM Results__ must be selected. The data store will be represented in the experiments tree view on the left hand side (*Figure 1*) arranged according to the execution time stamp and the name given in the previous step of simulation parameters setup.
-This is some text.[^1]. 
-[^1]: This is the footnote
-
 
 ![alt text][Doc21_1]
 *Figure 1: Show Resource Utilization for Compute Node*
