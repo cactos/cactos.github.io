@@ -62,3 +62,5 @@ docs:
        url: /docs/tutorials/setup-and-run-a-simple-simulation/
      - title: "Select the right optimisation algorithm"
        url: /docs/tutorials/the-right-optimisation-algorithm/
+     - title: "CactoSim: Specify and modify a data centre scenario"
+       url: /docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/
