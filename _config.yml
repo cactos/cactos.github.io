@@ -113,6 +113,7 @@ include:
   - images
   - _pages
 exclude:
+  - _docs_old/
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor

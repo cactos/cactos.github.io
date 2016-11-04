@@ -44,18 +44,18 @@ docs:
     children:
       - title: "Add support for other monitoring metrics"
         url: /docs/dev-guides/support-for-other-monitoring-metrics/
-      - title: "Support a different monitoring platform"
-        url: /docs/dev-guides/support-different-monitoring-platform/
+      #- title: "Support a different monitoring platform"
+      #  url: /docs/dev-guides/support-different-monitoring-platform/
       - title: "Support a different simulation engine"
         url: /docs/dev-guides/support-different-simulation-engine/
-      - title: "Implement your own behaviour analysis"
-        url: /docs/dev-guides/implement-your-own-behaviour-analysis/
+      #- title: "Implement your own behaviour analysis"
+      #  url: /docs/dev-guides/implement-your-own-behaviour-analysis/
       - title: "Support other cloud middleware"
         url: /docs/dev-guides/support-other-cloud-middleware/
   - title: Tutorials
     children:
-     - title: "Support a new application in CACTOS"
-       url: /docs/tutorials/support-a-new-application-in-cactos/
+     #- title: "Support a new application in CACTOS"
+     #  url: /docs/tutorials/support-a-new-application-in-cactos/
      - title: "Change your optimisation algorithm"
        url: /docs/tutorials/change-your-optimisation-algorithm/
      - title: "Set-up and run a simple simulation"
