@@ -33,6 +33,7 @@ The installation steps should be performed in this order:
 > 3. Edit Contents>eclipse>eclipse.ini
 
 Executing test example:
+
 - Configure cactoopt_optimisationalgorithm.cfg in the config folder to your liking, i.e. by setting the algorithm to LinKernighan or Random. This can be done while the platform is running, no need to restart when you change the optimisation settings.
 - Boot up Eclipse and import our Y2 demo project: https://svn.fzi.de/svn/cactos/code/sim/trunk/eu.cactosfp7.cactosim.year2demo.bba/
 - Run the Eclipse launch configuration for the Y2 Demo: "Year 2 Demonstration.launch".
