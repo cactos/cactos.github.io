@@ -9,9 +9,9 @@ permalink: /docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/
 
 [Doc19_1]: {{ base_path }}/assets/images/Doc19_1.png "Load DC"
 [Doc19_2]: {{ base_path }}/assets/images/Doc19_2.png "Load DC - Select"
-[Doc19_3]: {{ base_path }}/assets/images/Doc19_3.png "Load DC - Select"
-[Doc19_4]: {{ base_path }}/assets/images/Doc19_4.png "Load DC - Select"
-[Doc19_5]: {{ base_path }}/assets/images/Doc19_5.png "Load DC - Select"
+[Doc19_3]: {{ base_path }}/assets/images/Doc19_3.png "Name Project"
+[Doc19_4]: {{ base_path }}/assets/images/Doc19_4.png "Credentials"
+[Doc19_5]: {{ base_path }}/assets/images/Doc19_5.png "Model Access"
 
 CactoSim provides a wealth of options to modify and adapt physical or logical data centre resources. This section of the user manual explains the individual building blocks used to define and manipulate various simulation scenarios in CactoSim. Users can combine those building blocks to fit the purpose of a specific data centre analysis. 
 
@@ -42,4 +42,5 @@ The CACTOS models can be imported (loaded) from the CDO Runtime Model Storage by
 
 - CactoSim will now connect to the server and fetch CACTOS models to the workspace folder. The models can then be viewed and edited in the resource tree viewer, shown in *Figure 5*.
 ![alt text][Doc19_5]
+*Figure 5: Load a Data Centre Model from the Runtime Model Repository – Model Access*
 
