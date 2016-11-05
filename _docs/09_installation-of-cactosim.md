@@ -7,7 +7,7 @@ permalink: /docs/installation-guides/installation-of-cactosim/
 
 [Doc9_1]: {{ base_path }}/assets/images/Doc9_1.png "CactoSim Installation"
 
-![alt text][Doc9_1] CactoSim is an Eclipse feature which is integrated with the Palladio and SimuLizar simulation frameworks. During the tool installation all of the core components are fetched automatically from the respective locations.
+CactoSim is an Eclipse feature which is integrated with the Palladio and SimuLizar simulation frameworks. During the tool installation all of the core components are fetched automatically from the respective locations.![alt text][Doc9_1]
 
 The installation steps should be performed in this order:
 
