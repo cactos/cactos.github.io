@@ -5,6 +5,9 @@ permalink: /docs/scenarios/simulation-only/
 
 {% include base_path %}
 
+[Doc9_1]: {{ base_path }}/assets/images/Doc4_1.PNG "CactoSim Screen"
+
+![alt text][Doc9_1]
 CactoSim provides a wealth of options to modify and adapt physical or logical data centre resources. This section of the user manual explains the individual building blocks used to define and manipulate various simulation scenarios in CactoSim. Users can combine those building blocks to fit the purpose of a specific data centre analysis. 
 
 For simualation only scenarios, the following links contain detailed step-by-step instructions supported by screenshots of the actual graphical user interface provided by CactoSim. The aim is to cover the functionality of core features of this CactoSim release as well as to introduce the general principle notion of cloud modelling using the provided tree editor interface. 
@@ -17,4 +20,4 @@ Please see the following tutorial links for how to use CactoSim:
 
 - [How to display simulation results](https://cactos.github.io/docs/tutorials/cactosim-display-simulation-results/)
 
-
+[![youtube video](https://cactos.github.io/assets/images/Doc9_2.PNG)](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
