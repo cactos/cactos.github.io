@@ -34,5 +34,5 @@ The installation steps should be performed in this order:
 
 [![youtube video](https://cactos.github.io/assets/images/Doc9_2.png)](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
 
-
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
 
