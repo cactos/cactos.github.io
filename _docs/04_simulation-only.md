@@ -11,7 +11,10 @@ For simualation only scenarios, the following links contain detailed step-by-ste
 
 Please see the following tutorial links for how to use CactoSim:
 
-[How to specify and modify a data centre scenario in CactoSim](https://cactos.github.io/docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/)
-[How to run a simulation](https://cactos.github.io/docs/tutorials/cactosim-run-a-simulation/)
-[How to display simulation results](https://cactos.github.io/docs/tutorials/cactosim-display-simulation-results/)
+- [How to specify and modify a data centre scenario in CactoSim](https://cactos.github.io/docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/)
+
+- [How to run a simulation](https://cactos.github.io/docs/tutorials/cactosim-run-a-simulation/)
+
+- [How to display simulation results](https://cactos.github.io/docs/tutorials/cactosim-display-simulation-results/)
+
 
