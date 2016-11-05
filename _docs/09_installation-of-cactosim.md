@@ -32,7 +32,7 @@ The installation steps should be performed in this order:
  3. Edit Contents>eclipse>eclipse.ini
 {: .notice--info}
 
-[![youtube video]({{ base_path }}/assets/images/Doc9_2.png)](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
+[![youtube video](https://cactos.github.io/assets/images/Doc9_2.png)](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
 
 
 
