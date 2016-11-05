@@ -6,7 +6,6 @@ permalink: /docs/installation-guides/installation-of-cactosim/
 {% include base_path %}
 
 [Doc9_1]: {{ base_path }}/assets/images/Doc9_1.png "CactoSim Installation"
-[Doc9_2]: {{ base_path }}/assets/images/Doc9_2.png "Youtube video"
 
 CactoSim is an Eclipse feature which is integrated with the Palladio and SimuLizar simulation frameworks. During the tool installation all of the core components are fetched automatically from the respective locations.![alt text][Doc9_1]
 
@@ -33,7 +32,7 @@ The installation steps should be performed in this order:
  3. Edit Contents>eclipse>eclipse.ini
 {: .notice--info}
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![youtube video]({{ base_path }}/assets/images/Doc9_2.png)](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
 
-![alt text][Doc9_2](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
+
 
