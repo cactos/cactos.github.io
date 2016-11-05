@@ -32,6 +32,17 @@ The installation steps should be performed in this order:
  3. Edit Contents>eclipse>eclipse.ini
 {: .notice--info}
 
+# Tutorial Links
+
+Please see the following tutorial links for how to use CactoSim:
+
+- [How to specify and modify a data centre scenario in CactoSim](https://cactos.github.io/docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/)
+
+- [How to run a simulation](https://cactos.github.io/docs/tutorials/cactosim-run-a-simulation/)
+
+- [How to display simulation results](https://cactos.github.io/docs/tutorials/cactosim-display-simulation-results/)
+
+# Meet CactoSim Video
 [![youtube video](https://cactos.github.io/assets/images/Doc9_2.PNG)](https://www.youtube.com/watch?v=Ah6uW1kfjkA)
 
 
