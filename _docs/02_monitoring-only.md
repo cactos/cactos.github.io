@@ -29,6 +29,5 @@ simple filtering operations being feasible in-situ, and only more advanced data 
 Additionally, a monitoring dashboard (cf. Figure 2) has been developed for the user to get meaningful graphs during real time, but also navigate through past historical data. 
 
 <figure>
-{% include gallery %}
+{% include gallery caption="*Figure 2: Snapshots of the Monitoring Dashboard*" %}
 </figure>
-*Figure 2: Snapshots of the Monitoring Dashboard*
