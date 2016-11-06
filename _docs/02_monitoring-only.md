@@ -2,11 +2,11 @@
 title: "Monitoring only"
 permalink: /docs/scenarios/monitoring-only/
 gallery:
- - url: /assets/images/dashboard_1.png
+ - url: dashboard_1.png
    image_path: dashboard_1.PNG
    alt: "dashboard_1.png"
    title: "Monitoring Dashboard Real-time overview with VMs and Compute Nodes"
- - url: /assets/images/dashboard_2.png
+ - url: dashboard_2.png
    image_path: dashboard_2.PNG
    alt: "dashboard_2.png"
    title: "Monitoring Dashboard Real-time overview with metrics"
