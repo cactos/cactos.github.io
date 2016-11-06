@@ -30,5 +30,5 @@ Additionally, a monitoring dashboard (cf. Figure 2) has been developed for the u
 
 <figure>
 {% include gallery %}
-
+</figure>
 *Figure 2: Snapshots of the Monitoring Dashboard*
