@@ -31,8 +31,12 @@ Below, the configuration of the required Puppet modules is described.
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
-class { 'cactos_cdo':}
+```ruby
+class { 'cactos_cdo':
+      mysql_root_pw      => 'secretpass',
+      mysql_cdo_pw       => 'alsosecret',
+      mysql_cdo_username => 'cdo'
+    }
 ```
 
 # Monitoring Cluster
@@ -43,7 +47,7 @@ class { 'cactos_cdo':}
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_collector':
   fs_default_name => '' # The hostname or IP of the Hadoop DFS
 }
@@ -57,7 +61,7 @@ class { 'cactos_collector':
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_modelupdater':}
 ```
 
@@ -69,9 +73,8 @@ class { 'cactos_modelupdater':}
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_monitoring_gui':
-   app_host => '' # The IP of the current VM
     app_port => '5000',	
     server_thrift_host => '', # The IP of the Monitoring Cluster VM where the thrift server runs
     server_thrift_port => '9000' 

@@ -33,7 +33,7 @@ Below, the configuration of the required Puppet modules is described.
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_cloudiator':
  mysql_col_name => '' 
  mysql_col_pw   => '',	
@@ -51,7 +51,7 @@ class { 'cactos_cloudiator':
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_os_proxy':}
 ```
 
@@ -63,7 +63,7 @@ class { 'cactos_os_proxy':}
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_runtime_optimisation':}
 ```
 
@@ -77,7 +77,7 @@ class { 'cactos_runtime_optimisation':}
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_runtime_controller':}
 ```
 
@@ -89,7 +89,7 @@ class { 'cactos_runtime_controller':}
 
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
-```yaml
+```ruby
 class { 'cactos_runtime_gui':
  runtimeController  => '' # The IP of the Runtime Controller VM
  runtimeManagement  => '', # The IP of the Runtime Optimisation VM
