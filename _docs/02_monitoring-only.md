@@ -1,6 +1,15 @@
 ---
 title: "Monitoring only"
 permalink: /docs/scenarios/monitoring-only/
+gallery:
+ - url: /assets/images/dashboard_1.png
+   image_path: dashboard_1.png
+   alt: "dashboard_1.png"
+   title: "Monitoring Dashboard Real-time overview with VMs and Compute Nodes"
+ - url: /assets/images/dashboard_2.png
+   image_path: dashboard_2.png
+   alt: "dashboard_2.png"
+   title: "Monitoring Dashboard Real-time overview with metrics"
 ---
 
 {% include base_path %}
@@ -19,5 +28,7 @@ simple filtering operations being feasible in-situ, and only more advanced data 
 
 Additionally, a monitoring dashboard (cf. Figure 2) has been developed for the user to get meaningful graphs during real time, but also navigate through past historical data. 
 
+<figure>
 {% include gallery %}
+
 *Figure 2: Snapshots of the Monitoring Dashboard*

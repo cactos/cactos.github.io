@@ -1,8 +1,0 @@
-gallery:
- - url: /assets/images/dashboard_1.png
-   image_path: /assets/images/dashboard_1.png
-   alt: "placeholder image 1"
-   title: "Monitoring Dashboard Real-time overview with VMs and Compute Nodes"
- - url: /assets/images/dashboard_1.png
-   image_path: /assets/images/dashboard_1.png
-   alt: "placeholder image 2"
