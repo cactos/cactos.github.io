@@ -4,17 +4,15 @@ permalink: /docs/scenarios/monitoring-only/
 gallery:
  - url: dashboard_1.PNG
    image_path: dashboard_1.PNG
-   alt: "dashboard_1.png"
-   title: "Monitoring Dashboard Real-time overview with VMs and Compute Nodes"
+   alt: dashboard_1.png
+   title: Monitoring Dashboard Real-time overview with VMs and Compute Nodes
  - url: dashboard_2.PNG
    image_path: dashboard_2.PNG
    alt: dashboard_2.png
-   title: "Monitoring Dashboard Real-time overview with metrics"
+   title: Monitoring Dashboard Real-time overview with metrics
 ---
 
 {% include base_path %}
-
-{% include toc %}
 
 CACTOS may be used from a datacentre operator to monitor its infrastructure. By installing and enabling CactoScale in the infrastructure (cf. Figure 1), **integrates multiple sources of performance and error monitoring data** 
 into a consolidated architecture with a unified interface and storage architecture. Specifically, data agents co-located with the data centre servers collect log traces from user-defined data sources and 
