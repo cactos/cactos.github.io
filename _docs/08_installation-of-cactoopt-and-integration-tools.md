@@ -35,11 +35,12 @@ Below, the configuration of the required Puppet modules is described.
 
 ```ruby
 class { 'cactos_cloudiator':
- mysql_col_name => '' 
- mysql_col_pw   => '',	
- mysql_root_pw  => '', 
- col_secret     => '',
- col_prefix     => ''
+ mysql_col_name => 'colosseum', # Username for the colosseum database
+ mysql_col_pw   => 'changeme',	# Password for the $mysql_col_name databse user
+ mysql_root_pw  => 'changeme',  # Password for the mysql root user
+ col_secret     => 'change_me_sandlandnpoj33qkpsajfdpjd30jd', # Secure hash for colosseum
+ col_prefix     => 'cts'        # Database prefix for the colosseum database
+
 }
 ```
 
@@ -52,7 +53,11 @@ class { 'cactos_cloudiator':
 **3.** Create a `site.pp` file under `/etc/puppetlabs/code/environments/production/` and the content should be:
 
 ```ruby
-class { 'cactos_os_proxy':}
+class { 'cactos_os_proxy':
+ tenant_id   => ''          # Redirect API requests for this tenant
+ target_host => '<ip>:9090' # host:port of redirect target
+ os_port     => '18774'     # Port the actual OS API is listening on
+}
 ```
 
 # Runtime Optimisation
@@ -91,7 +96,7 @@ class { 'cactos_runtime_controller':}
 
 ```ruby
 class { 'cactos_runtime_gui':
- runtimeController  => '' # The IP of the Runtime Controller VM
+ runtimeController  => '', # The IP of the Runtime Controller VM
  runtimeManagement  => '', # The IP of the Runtime Optimisation VM
  monitoringService  => '', # The IP of the Monitoring Cluster Gateway 
  colosseumServer    => '', # The IP of the Colosseum VM
