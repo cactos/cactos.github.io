@@ -50,8 +50,8 @@ docs:
       #  url: /docs/dev-guides/support-different-simulation-engine/
       #- title: "Implement your own behaviour analysis"
       #  url: /docs/dev-guides/implement-your-own-behaviour-analysis/
-      - title: "Support other cloud middleware"
-        url: /docs/dev-guides/support-other-cloud-middleware/
+      #- title: "Support other cloud middleware"
+      #  url: /docs/dev-guides/support-other-cloud-middleware/
   - title: Tutorials
     children:
      #- title: "Support a new application in CACTOS"
