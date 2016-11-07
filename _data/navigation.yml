@@ -28,8 +28,8 @@ docs:
         url: /docs/scenarios/data-centre-management/
       - title: "Simulation only"
         url: /docs/scenarios/simulation-only/
-      - title: "Full loop"
-        url: /docs/scenarios/full-loop/
+      #- title: "Full loop"
+      #  url: /docs/scenarios/full-loop/
   - title: Installation Guides
     children:
       - title: "Prerequisites and Requirements"
@@ -46,7 +46,7 @@ docs:
         url: /docs/dev-guides/support-for-other-monitoring-metrics/
       #- title: "Support a different monitoring platform"
       #  url: /docs/dev-guides/support-different-monitoring-platform/
-      # - title: "Support a different simulation engine"
+      #- title: "Support a different simulation engine"
       #  url: /docs/dev-guides/support-different-simulation-engine/
       #- title: "Implement your own behaviour analysis"
       #  url: /docs/dev-guides/implement-your-own-behaviour-analysis/
