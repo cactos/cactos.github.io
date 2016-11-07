@@ -16,7 +16,7 @@ Moving to the architecture, the **OpenStack VMI** and **OpenStack VMI Controller
  and an OpenStack Cloud Platform, is the **Runtime Management**.
  
  <figure>
-  <img src="{{ base_path }}/assets/images/vmi_openstack.png" alt="CACTOS Monitoring System">
+  <img src="{{ base_path }}/assets/images/vmi_openstack.png" alt="CACTOS Architecture on an OpenStack-based datacentre">
 </figure>
 *Figure 1: CACTOS Architecture on an OpenStack-based datacentre*
  
