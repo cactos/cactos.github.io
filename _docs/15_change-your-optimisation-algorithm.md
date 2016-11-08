@@ -1,13 +1,11 @@
 ---
-title: "Change your optimisation algorithm"
-permalink: /docs/tutorials/change-your-optimisation-algorithm/
+title: "Implement a new optimisation service"
+permalink: /docs/dev-guides/implement-a-new-optimisation-service/
 ---
 {% include base_path %}
 
-
 {% include toc %}
 
-# How to implement a new optimisation service
 In order to add new optimisation capabilities to [CactoOpt](https://github.com/cactos/cactoopt) one should create a new Java project that implements two interfaces and extends one abstract class listed below. Additionally, one should configure the **component.xml** file in the **OSGI-INF** directory.
 
 ## Optimisation

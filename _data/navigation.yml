@@ -44,6 +44,8 @@ docs:
     children:
       - title: "Add support for other monitoring metrics"
         url: /docs/dev-guides/support-for-other-monitoring-metrics/
+      - title: "Implement a new optimisation service"
+        url:  /docs/dev-guides/implement-a-new-optimisation-service/
       #- title: "Support a different monitoring platform"
       #  url: /docs/dev-guides/support-different-monitoring-platform/
       #- title: "Support a different simulation engine"
@@ -56,10 +58,6 @@ docs:
     children:
      #- title: "Support a new application in CACTOS"
      #  url: /docs/tutorials/support-a-new-application-in-cactos/
-     - title: "Change your optimisation algorithm"
-       url: /docs/tutorials/change-your-optimisation-algorithm/
-     #- title: "Set-up and run a simple simulation"
-     #  url: /docs/tutorials/setup-and-run-a-simple-simulation/
      - title: "Select the right optimisation algorithm"
        url: /docs/tutorials/the-right-optimisation-algorithm/
      - title: "Specify and modify a data centre scenario"
