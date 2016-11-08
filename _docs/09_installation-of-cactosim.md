@@ -19,7 +19,7 @@ The installation steps should be performed in this order:
 Do not restart Eclipse after 3). Instead, close it, conduct step 4)-6), and then start it again)
 {: .notice--info}
 
-- Download [this](https://svn.fzi.de/svn/cactos/code/integration/trunk/eu.cactosfp7.configuration/) and insert into the configuration subfolder of the Eclipse directory
+- Download [this](https://anonymous:anonymous@svn.fzi.de/svn/cactos/code/integration/trunk/eu.cactosfp7.configuration/) and insert into the configuration subfolder of the Eclipse directory
 - Modify your eclipse.ini by appending the following lines at the very end:
 
 ```sh
