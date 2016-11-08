@@ -1,5 +1,5 @@
 ---
-title: "Display Simulation Results in CactoSim"
+title: "Display Simulation Results"
 permalink: /docs/tutorials/cactosim-display-simulation-results/
 ---
 

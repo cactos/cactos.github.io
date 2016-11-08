@@ -1,5 +1,5 @@
 ---
-title: "Run a Simulation in CactoSim"
+title: "Run a Simulation"
 permalink: /docs/tutorials/cactosim-run-a-simulation/
 ---
 

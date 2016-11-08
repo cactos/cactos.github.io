@@ -1,5 +1,5 @@
 ---
-title: "Specify and modify a data centre scenario in CactoSim"
+title: "Specify and modify a data centre scenario"
 permalink: /docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/
 ---
 
