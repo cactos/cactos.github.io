@@ -60,6 +60,8 @@ docs:
      #  url: /docs/tutorials/support-a-new-application-in-cactos/
      - title: "Select the right optimisation algorithm"
        url: /docs/tutorials/the-right-optimisation-algorithm/
+     - title: "Build and run Spark Applications"
+       url: /docs/tutorials/build-and-run-spark-applications/
      - title: "Specify and modify a data centre scenario"
        url: /docs/tutorials/cactosim-specify-and-modify-a-data-centre-scenario/
      - title: "Run a simulation"
