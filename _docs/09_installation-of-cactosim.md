@@ -11,33 +11,42 @@ CactoSim is an Eclipse feature which is integrated with the Palladio and SimuLiz
 
 The installation steps should be performed in this order:
 
-1. Use the Eclipse Modeling Tools [Neon](http://www.eclipse.org/downloads/)
-2. Install QVTo SDK 3.6 [Update Site](http://download.eclipse.org/mmt/qvto/updates/releases/3.6.0/)
-3. Install CactoSim from release [update site](https://sdqweb.ipd.kit.edu/eclipse/cactos/cactosim/releases/latest/)
+- Use the Eclipse Modeling Tools [Neon](http://www.eclipse.org/downloads/)
+- Install QVTo SDK 3.6 [Update Site](http://download.eclipse.org/mmt/qvto/updates/releases/3.6.0/)
+- Install CactoSim from release [update site](https://sdqweb.ipd.kit.edu/eclipse/cactos/cactosim/releases/latest/)
 
 **Note:**
 Do not restart Eclipse after 3). Instead, close it, conduct step 4)-6), and then start it again)
 {: .notice--info}
 
-4. Download [this](https://svn.fzi.de/svn/cactos/code/integration/trunk/eu.cactosfp7.configuration/) and insert into the configuration subfolder of the Eclipse directory
-5. Modify your eclipse.ini by appending the following lines at the very end:
+- Download [this](https://svn.fzi.de/svn/cactos/code/integration/trunk/eu.cactosfp7.configuration/) and insert into the configuration subfolder of the Eclipse directory
+- Modify your eclipse.ini by appending the following lines at the very end:
+
 ```sh
 -Dorg.osgi.service.http.port=9090
 -Dfelix.fileinstall.dir=./configuration/eu.cactosfp7.configuration/
 -Dfelix.fileinstall.noInitialDelay=true
 -Dfelix.fileinstall.poll=1000
 ```
-6. Due to interferences of CDO UI Plugins the OSGi start levels of certain plugins have to be changed. Unfortunately, this has to be done by hand and cannot be automated. The appropriate configuration file bundles.info lies within the folder (eclipse-folder)/configuration/org.eclipse.equinox.simpleconfigurator. The file is comma-separated, the first column specifies plugin-name, the column before the last specifies start level, and the last one specifies the auto start setting.
-6.1. The following bundles have to be adjusted from start level 4 to 7
+
+- Due to interferences of CDO UI Plugins the OSGi start levels of certain plugins have to be changed. Unfortunately, this has to be done by hand and cannot be automated. The appropriate configuration file bundles.info lies within the folder (eclipse-folder)/configuration/org.eclipse.equinox.simpleconfigurator. The file is comma-separated, the first column specifies plugin-name, the column before the last specifies start level, and the last one specifies the auto start setting.
+- The following bundles have to be adjusted from start level 4 to 7
+
+```
 - org.eclipse.emf.cdo.ui 
 - org.eclipse.emf.cdo.ui.admin
 - org.eclipse.emf.cdo.ui.compare
 - org.eclipse.emf.cdo.ui.shared
 - org.eclipse.emf.cdo.ui.team
-6.2. The following bundles have to get auto start set from false to true:
+```
+
+- The following bundles have to get auto start set from false to true:
+
+```
 - org.eclipse.equinox.cm
 - eu.cactosfp7.cactoopt.optimisationservice.* (for all optimisation algorithms which should be available)
 - eu.cactosfp7.cactoopt.placementservice.* (for all placement algorithms which should be available)
+```
 
 **Tip:** For configurations on a Mac:
  1. Right click on the eclipse application icon itself, e.g. eclipse.app, 
