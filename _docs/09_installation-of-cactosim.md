@@ -44,6 +44,7 @@ Do not restart Eclipse after 3). Instead, close it, conduct step 4)-6), and then
 
 ```
 - org.eclipse.equinox.cm
+- org.apache.felix.fileinstall
 - eu.cactosfp7.cactoopt.optimisationservice.* (for all optimisation algorithms which should be available)
 - eu.cactosfp7.cactoopt.placementservice.* (for all placement algorithms which should be available)
 ```
