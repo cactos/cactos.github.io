@@ -11,7 +11,7 @@ CactoSim is an Eclipse feature which is integrated with the Palladio and SimuLiz
 
 The installation steps should be performed in this order:
 
-1. Use the Eclipse Modeling Tools Neon [release](http://www.eclipse.org/downloads/)
+1. Use the Eclipse Modeling Tools [Neon](http://www.eclipse.org/downloads/)
 2. Install QVTo SDK 3.6 [Update Site](http://download.eclipse.org/mmt/qvto/updates/releases/3.6.0/)
 3. Install CactoSim from release [update site](https://sdqweb.ipd.kit.edu/eclipse/cactos/cactosim/releases/latest/)
 **Note:**
@@ -28,7 +28,7 @@ Do not restart Eclipse after 3). Instead, close it, conduct step 4)-6), and then
 ```
 6. Due to interferences of CDO UI Plugins the OSGi start levels of certain plugins have to be changed. Unfortunately, this has to be done by hand and cannot be automated. The appropriate configuration file bundles.info lies within the folder (eclipse-folder)/configuration/org.eclipse.equinox.simpleconfigurator. The file is comma-separated, the first column specifies plugin-name, the column before the last specifies start level, and the last one specifies the auto start setting.
 6.1. The following bundles have to be adjusted from start level 4 to 7
-- org.eclipse.emf.cdo.ui
+- org.eclipse.emf.cdo.ui 
 - org.eclipse.emf.cdo.ui.admin
 - org.eclipse.emf.cdo.ui.compare
 - org.eclipse.emf.cdo.ui.shared
