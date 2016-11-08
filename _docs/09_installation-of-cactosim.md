@@ -14,6 +14,7 @@ The installation steps should be performed in this order:
 1. Use the Eclipse Modeling Tools [Neon](http://www.eclipse.org/downloads/)
 2. Install QVTo SDK 3.6 [Update Site](http://download.eclipse.org/mmt/qvto/updates/releases/3.6.0/)
 3. Install CactoSim from release [update site](https://sdqweb.ipd.kit.edu/eclipse/cactos/cactosim/releases/latest/)
+
 **Note:**
 Do not restart Eclipse after 3). Instead, close it, conduct step 4)-6), and then start it again)
 {: .notice--info}
