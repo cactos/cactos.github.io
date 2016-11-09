@@ -70,8 +70,8 @@ social:
 
 # Analytics
 analytics:
-  provider               : true
-  google-universal:
+  provider               : "google-universal"
+  google:
     tracking_id          : UA-87077250-1
 
 
