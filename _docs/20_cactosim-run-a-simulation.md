@@ -18,7 +18,7 @@ At first, in the __CACTOS Infrastructure Model__ tab *Figure 1*, the path to the
 ![alt text][Doc20_1]
 *Figure 1: CACTOS Models location tab*
 
-Next, the __Simulation__ tab (*Figure 2*) allows for the naming of the simulation experiment, the selection of the persistence framework where the simulation results will be stored and the definition of the simulation stopping conditions.
+Next, the __Simulation__ tab (*Figure 2*) allows for the naming of the simulation experiment, the selection of the persistence framework where the simulation results will be stored and the definition of the simulation stopping conditions.   
 
 ![alt text][Doc20_2]
 *Figure 2: Simulation parameters setup tab*
