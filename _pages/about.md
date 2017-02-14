@@ -1,10 +1,9 @@
 ---
+title: Why CACTOS?
 layout: single
 author_profile: true
 permalink: about/
 ---
-
-# Why CACTOS?
 
 User demand and new technologies are driving a drastic increase in cloud infrastructure scale, heterogeneity and complexity. The demand for better energy efficiency has led to a variety of technological options to build servers from different CPU architectures as well as specialised options for highly parallel tasks such as manycore systems or General Purposed GPUs. At the same time, service provisioning has evolved from Web Services and infrastructure virtualisation to Clouds, which is conceptually very similar to the evolution from traditional server hosting to more interactive services (e.g. remote rendering or gaming).
 
