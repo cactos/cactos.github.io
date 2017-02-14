@@ -52,7 +52,7 @@
 }
 
 .page__footer-flag {
-  @include breakpoint($x-large) {
+  @include breakpoint($large) {
   	margin-left: 100%;
   }
   	.page__footer-flag-img {
@@ -94,5 +94,11 @@
   a {
     padding-right: 10px;
     font-weight: bold;
+  }
+}
+
+.grid__item {
+ @include breakpoint($large) {
+    @include gallery(6 of 12);
   }
 }
