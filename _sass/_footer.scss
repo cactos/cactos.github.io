@@ -52,23 +52,21 @@
 }
 
 .page__footer-flag {
-  @include breakpoint($medium) {
+  @include breakpoint($x-large) {
+  	margin-left: 100%;
+  }
   	.page__footer-flag-img {
 		  	img {
-			    max-height:100%;
-			 		max-width: 100%;
+			    width: 150px;
 		 		 }
   	}
 
   	.page__footer-flag-txt {
 			 p {
 			    font-family: $global-font-family;
-			    font-size: $type-size-8
+			    font-size: $type-size-8;
 				}
   	}
-  }
-  
-}
 
 .page__footer-follow {
 
