@@ -58,21 +58,15 @@
 }
 
 .page__footer-flag {
-  	.page__footer-flag-img {
-		  	img {
+		  img {
 		  		float: right;
 			    width: 150px;
 		 		 }
-  	}
-
-  	.page__footer-flag-txt {
 			 p {
-			 		float: right;
 			    font-family: $global-font-family;
 			    font-size: $type-size-8;
 				
 				}
-  	}
 }
 
 .page__footer-follow {
