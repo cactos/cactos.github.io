@@ -44,6 +44,12 @@
   .fa {
     color: mix(#fff, $gray, 25%);
   }
+  
+	.grid__item {
+	 @include breakpoint($medium) {
+	    @include gallery(6 of 12);
+	  }
+	}
 }
 
 .page__footer-copyright {
@@ -94,11 +100,5 @@
   a {
     padding-right: 10px;
     font-weight: bold;
-  }
-}
-
-.grid__item {
- @include breakpoint($medium) {
-    @include gallery(6 of 12);
   }
 }
