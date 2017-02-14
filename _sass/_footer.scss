@@ -58,19 +58,19 @@
 }
 
 .page__footer-flag {
-  @include breakpoint($medium) {
-  	margin-left: 100%;
-  }
   	.page__footer-flag-img {
 		  	img {
+		  		float: right;
 			    width: 150px;
 		 		 }
   	}
 
   	.page__footer-flag-txt {
 			 p {
+			 		float: right;
 			    font-family: $global-font-family;
 			    font-size: $type-size-8;
+				
 				}
   	}
 }
