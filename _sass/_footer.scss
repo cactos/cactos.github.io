@@ -52,7 +52,7 @@
 }
 
 .page__footer-flag {
-  @include breakpoint($large) {
+  @include breakpoint($medium) {
   	margin-left: 100%;
   }
   	.page__footer-flag-img {
@@ -98,7 +98,7 @@
 }
 
 .grid__item {
- @include breakpoint($large) {
+ @include breakpoint($medium) {
     @include gallery(6 of 12);
   }
 }
