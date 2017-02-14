@@ -59,9 +59,7 @@
 			 		max-width: 100%;
 		 		 }
   	}
-  }
-  
-  @include breakpoint($medium) {
+
   	.page__footer-flag-txt {
 			 p {
 			    font-family: $global-font-family;
@@ -69,7 +67,6 @@
 				}
   	}
   }
-  
   
 }
 
