@@ -51,6 +51,28 @@
   font-size: $type-size-7;
 }
 
+.page__footer-flag {
+  @include breakpoint($medium) {
+  	.page__footer-flag-img {
+		  	img {
+			    max-height:100%;
+			 		max-width: 100%;
+		 		 }
+  	}
+  }
+  
+  @include breakpoint($medium) {
+  	.page__footer-flag-txt {
+			 p {
+			    font-family: $global-font-family;
+			    font-size: $type-size-7
+				}
+  	}
+  }
+  
+  
+}
+
 .page__footer-follow {
 
   ul {
